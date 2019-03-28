@@ -1,0 +1,16 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="editText_textSize_login">22sp</dimen>
+    <dimen name="padding_horizontal_login">32dp</dimen>
+    <dimen name="imageSize">20dp</dimen>
+    <dimen name="editText_textSize_count">12sp</dimen>
+    <dimen name="editText_margin_createAccount">10dp</dimen>
+    <dimen name="padding_vertical">10dp</dimen>
+    <dimen name="height_cardView">200dp</dimen>
+    <dimen name="cornerradius_cardview">4dp</dimen>
+    <dimen name="activty_vertical_margin">5dp</dimen>
+    <dimen name="textsize_username_card">25sp</dimen>
+    <dimen name="firstword_textsize_card">15sp</dimen>
+    <dimen name="timecard_marginleft_card">5dp</dimen>
+    <dimen name="like_margintop_card">10dp</dimen>
+</resources>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Sinsgram</string>
+    <string name="title_activity_referencia">ReferenciaActivity</string>
+    <string name="hint_username">Nombre de Usuario</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_button_login">Login</string>
+    <string name="not_Have_account">No tienes cuenta,</string>
+    <string name="CreateHere">Crea una Aquí</string>
+    <string name="hint_Tx_name">Nombre</string>
+    <string name="hint_Tx_mail">Correo Electrónico</string>
+    <string name="hint_Tx_password">Contraseña</string>
+    <string name="hint_Tx_confirm_password">Confirma Contraseña</string>
+    <string name="toolbar_tittle_createaccount">Crea tu propia cuenta</string>
+    <string name="username_card">King</string>
+    <string name="firstword_card">Conectado hace</string>
+    <string name="timeword_card">2</string>
+</resources>
