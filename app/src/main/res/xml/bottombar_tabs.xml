@@ -18,6 +18,4 @@
         barColorWhenSelected="@color/colorPrimary"
         icon="@drawable/ic_user"
         />
-
-
 </tabs>
