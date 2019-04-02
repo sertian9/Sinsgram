@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.sinsgram.Views.ContainerActivity;
 import com.example.sinsgram.Views.CreateAccountActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -20,4 +21,9 @@ public class MainActivity extends AppCompatActivity {
         intent = new Intent(MainActivity.this, CreateAccountActivity.class);
         startActivity(intent);
             }
+    public void GoContainerActivity (View view){
+        Intent intent;
+        intent = new Intent(MainActivity.this, ContainerActivity.class);
+        startActivity(intent);
+    }
 }
