@@ -23,9 +23,13 @@
 
             <ImageView
                 android:id="@+id/logo"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/sins"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/platzigram"
+                android:paddingBottom="@dimen/padding_horizontal_login"
+                android:paddingLeft="@dimen/padding_horizontal_login"
+                android:paddingRight="@dimen/padding_horizontal_login"
+                android:paddingTop="@dimen/padding_horizontal_login"
                 android:layout_centerInParent="true"/>
 
         </RelativeLayout>

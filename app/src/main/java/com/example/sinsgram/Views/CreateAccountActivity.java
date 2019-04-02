@@ -1,4 +1,4 @@
-package com.example.sinsgram;
+package com.example.sinsgram.Views;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

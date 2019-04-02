@@ -14,4 +14,5 @@
     <string name="username_card">King</string>
     <string name="firstword_card">Conectado hace</string>
     <string name="timeword_card">2</string>
+    <string name="likeNumber_card">5 Me gusta</string>
 </resources>
