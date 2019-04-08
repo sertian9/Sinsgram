@@ -29,7 +29,7 @@ public class ContainerActivity extends AppCompatActivity {
                         getSupportFragmentManager().beginTransaction().replace(R.id.container,homeFragment).setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE).addToBackStack(null).commit();
                         break;
 
-                    case R.id.search:
+                   /* case R.id.search:
                         SearchFragment searchFragment = new SearchFragment();
                         getSupportFragmentManager().beginTransaction().replace(R.id.container,searchFragment).setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE).addToBackStack(null).commit();
                         break;
@@ -37,8 +37,7 @@ public class ContainerActivity extends AppCompatActivity {
                     case R.id.profile:
                         ProfileFragment profileFragment = new ProfileFragment();
                         getSupportFragmentManager().beginTransaction().replace(R.id.container,profileFragment).setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE).addToBackStack(null).commit();
-                        break;
-
+                        break;*/
 
 
                 }
