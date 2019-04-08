@@ -6,6 +6,8 @@ import android.os.Bundle;
 
 import com.example.sinsgram.R;
 import com.example.sinsgram.Views.Fragments.HomeFragment;
+import com.example.sinsgram.Views.Fragments.ProfileFragment;
+import com.example.sinsgram.Views.Fragments.SearchFragment;
 import com.roughike.bottombar.BottomBar;
 import com.roughike.bottombar.OnTabSelectListener;
 
@@ -26,6 +28,18 @@ public class ContainerActivity extends AppCompatActivity {
                         HomeFragment homeFragment = new HomeFragment();
                         getSupportFragmentManager().beginTransaction().replace(R.id.container,homeFragment).setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE).addToBackStack(null).commit();
                         break;
+
+                    case R.id.search:
+                        SearchFragment searchFragment = new SearchFragment();
+                        getSupportFragmentManager().beginTransaction().replace(R.id.container,searchFragment).setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE).addToBackStack(null).commit();
+                        break;
+
+                    case R.id.profile:
+                        ProfileFragment profileFragment = new ProfileFragment();
+                        getSupportFragmentManager().beginTransaction().replace(R.id.container,profileFragment).setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE).addToBackStack(null).commit();
+                        break;
+
+
 
                 }
 
