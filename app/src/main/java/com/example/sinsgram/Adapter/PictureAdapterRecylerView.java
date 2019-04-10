@@ -11,8 +11,11 @@ import android.widget.TextView;
 
 import com.example.sinsgram.Model.Picture;
 import com.example.sinsgram.R;
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
+
+import static com.example.sinsgram.R.id.imageCard;
 
 public class PictureAdapterRecylerView extends RecyclerView.Adapter<PictureAdapterRecylerView.PictureViewHolder>{
     @NonNull
@@ -33,7 +36,9 @@ public class PictureAdapterRecylerView extends RecyclerView.Adapter<PictureAdapt
 
     @Override
     public void onBindViewHolder(@NonNull PictureViewHolder pictureViewHolder, int i) {
+
         Picture picture=pictures.get(i);
+        Picasso.with(activity).load(picture.getPicture()).into(pictureViewHolder.ImageCard);
         pictureViewHolder.usernameCard.setText(picture.getUserName());
         pictureViewHolder.timeCard.setText(picture.getTime());
         pictureViewHolder.likeNumberCard.setText(picture.getLike_number());
@@ -46,13 +51,13 @@ public class PictureAdapterRecylerView extends RecyclerView.Adapter<PictureAdapt
     }
 
     public class PictureViewHolder extends RecyclerView.ViewHolder {
-        private ImageView pictureCard;
+        private ImageView ImageCard;
         private TextView usernameCard;
         private TextView timeCard;
         private TextView likeNumberCard;
         public PictureViewHolder(@NonNull View itemView) {
             super(itemView);
-           pictureCard = (ImageView) itemView.findViewById(R.id.pictureCard);
+           ImageCard = (ImageView) itemView.findViewById(imageCard);
             usernameCard = (TextView) itemView.findViewById(R.id.username_card);
             timeCard= (TextView) itemView.findViewById(R.id.time_card);
             likeNumberCard = (TextView) itemView.findViewById(R.id.likeNumberCard);

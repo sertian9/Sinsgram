@@ -45,9 +45,9 @@ public class HomeFragment extends Fragment {
     }
     public ArrayList<Picture> buidPictures(){
         ArrayList<Picture> pictures = new ArrayList<>();
-        pictures.add(new Picture("https://i.pinimg.com/originals/70/4f/97/704f975d2887518368c39157c3991b7b.jpg"),"King","4 días","3 Me gusta");
-        pictures.add(new Picture("https://pngimage.net/wp-content/uploads/2018/05/diane-nanatsu-no-taizai-png-5.png"),"Diana","1 días","4 Me gusta");
-        pictures.add(new Picture("http://images6.fanpop.com/image/photos/38400000/Ban-nanatsu-no-taizai-38454547-400-400.png"),"Ban","7 días","10 Me gusta");
+        pictures.add(new Picture("https://i.pinimg.com/originals/70/4f/97/704f975d2887518368c39157c3991b7b.jpg","King","4 días","3 Me gusta"));
+        pictures.add(new Picture("https://pngimage.net/wp-content/uploads/2018/05/diane-nanatsu-no-taizai-png-5.png","Diana","1 días","4 Me gusta"));
+        pictures.add(new Picture("http://images6.fanpop.com/image/photos/38400000/Ban-nanatsu-no-taizai-38454547-400-400.png","Ban","7 días","10 Me gusta"));
         return pictures;
 
     }
